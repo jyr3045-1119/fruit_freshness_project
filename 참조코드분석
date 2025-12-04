@@ -1,0 +1,21 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. 참조 코드 조사 및 분석
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+이론적 배경 (학술 논문)   링크  https://pmc.ncbi.nlm.nih.gov/articles/PMC11035072/
+├─ PMC (2024): "Fruit freshness detection based on 
+│  multi-task convolutional neural network"
+└─Multi-Task Learning (신선도 T1 + 과일 종류 T2)
+
+
+백본 구조 참조  링크  https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py
+├─ PyTorch 공식 ResNet 구현
+├─ ImageNet pretrained ResNet18
+└─ Transfer Learning 표준 방법론
+
+구현 참조 링크  https://github.com/harshitkd/Fruit-Freshness-Prediction
+├─ GitHub: harshitkd/Fruit-Freshness-Prediction
+├─ 같은 데이터셋 사용 (Kaggle 13,599개)
+└─ 6-class 단일 출력: 97.41% 정확도
+
+
